@@ -53,7 +53,7 @@
 
     <repositories>
         <repository>
-            <id>repo</id>
+            <id>repo.geyfman.net</id>
             <releases>
                 <enabled>true</enabled>
                 <checksumPolicy>ignore</checksumPolicy>
@@ -61,7 +61,18 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <url>file://${project.basedir}/repo</url>
+            <url>https://github.com/anatolyg/mvn.geyfman.net/raw/master/releases</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <url>https://github.com/anatolyg/mvn.geyfman.net/raw/master/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repo</id>
+            <url>https://github.com/anatolyg/mvn.geyfman.net/raw/master/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
