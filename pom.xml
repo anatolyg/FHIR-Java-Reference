@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
+            <artifactId>JSON</artifactId>
             <version>20110202</version>
         </dependency>
         <dependency>
@@ -61,7 +61,7 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <url>https://github.com/anatolyg/mvn.geyfman.net/raw/master/releases</url>
+            <url>https://raw.github.com/anatolyg/mvn.geyfman.net/master/releases</url>
         </repository>
     </repositories>
 
